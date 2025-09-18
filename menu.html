@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Menu</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: poppins, sans-serif;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.menu{
+			padding: 30px;
+			background: #ccc;
+			text-align: ;
+		}
+
+
+		.menu>ul>li{
+			list-style: none;
+			float: left;
+			padding: 20px;
+			background: #fffa;
+			position: relative;
+		}
+
+		.submenu li a{
+			color: black;
+		}
+
+		.menu>ul>li:hover .submenu{
+			display: block;
+		}
+
+		.submenu li:hover a{
+			color: #F05819;
+		}
+
+		.submenu{
+			list-style: none;
+			background: #fff;
+			margin: 1px 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-top: 57px;
+			display: none;
+			color: black;
+		}
+
+		.submenu li{
+			width: 200px;
+			padding: 10px 20px;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.clear{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			
+			<li>
+				<a href="#">Study <i class="fa-solid fa-caret-down"></i></a>
+
+				<ul class="submenu">
+					<li><a href="">Why Aditya</a></li>
+					<li><a href="">Programs Offered</a></li>
+					<li><a href="">Admission Process</a></li>
+					<li><a href="">Fees Details</a></li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="#">Students <i class="fa-solid fa-caret-down"></i></a>
+
+				<ul class="submenu">
+					<li><a href="">Academics</a></li>
+					<li><a href="">Opportunities</a></li>
+					<li><a href="">Facilities</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Research</a></li>
+			<li><a href="#">Outreach</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+
+			<div class="clear"></div>
+		</ul>
+	</div>
+
+</body>
+</html>

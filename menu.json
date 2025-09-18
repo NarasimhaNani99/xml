@@ -1,0 +1,17 @@
+[
+  {
+    "entree": "Grilled Chicken",
+    "price": 12.99,
+    "description": "Grilled chicken breast served with vegetables."
+  },
+  {
+    "entree": "Vegetarian Pasta",
+    "price": 10.99,
+    "description": "Pasta with fresh vegetables in a tomato basil sauce."
+  },
+  {
+    "entree": "Beef Steak",
+    "price": 18.99,
+    "description": "Juicy steak grilled to perfection."
+  }
+]
